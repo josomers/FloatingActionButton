@@ -325,6 +325,10 @@ public class Label extends TextView {
         }
     });
 
+    public FloatingActionButton getFab() {
+        return mFab;
+    }
+
     private class Shadow extends Drawable {
 
         private Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
